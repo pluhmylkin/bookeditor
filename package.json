@@ -1,0 +1,52 @@
+{
+  "name": "bookeditor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --watch --config webpack/webpack.dev.config.js",
+    "build": "webpack --config webpack/webpack.prod.config.js"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluhmylkin/bookeditor.git"
+  },
+  "author": "Andrei Pliukhaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pluhmylkin/bookeditor/issues"
+  },
+  "homepage": "https://github.com/pluhmylkin/bookeditor#readme",
+  "dependencies": {
+    "react": "16.8.5",
+    "react-dom": "16.8.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
+    "@babel/preset-react": "7.0.0",
+    "autoprefixer": "9.5.0",
+    "babel-loader": "8.0.5",
+    "copy-webpack-plugin": "5.0.2",
+    "css-loader": "2.1.1",
+    "css-mqpacker": "7.0.0",
+    "cssnano": "4.1.10",
+    "file-loader": "3.0.1",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.5.0",
+    "node-sass": "4.11.0",
+    "path": "0.12.7",
+    "postcss-loader": "3.0.0",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.2.1",
+    "webpack-merge": "4.2.1"
+  }
+}
