@@ -1,5 +1,12 @@
 # bookeditor
 
+
+# Installation
+
+1. npm install
+2. npm run dev
+
+
 # Technologies
 
 ## Front-end
